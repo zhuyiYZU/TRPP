@@ -3,6 +3,6 @@
 
 2. **Generate_text.py**: This script takes the filtered prompts and inputs them into a large language model to generate text.
 
-3.1 & 3.2: Using BERT similarity, the script evaluates the similarity between the generated text and the target text. A threshold is set, and if the similarity exceeds this threshold, the text is classified as machine-generated.
+**3.1** & **3.2**: Using BERT similarity, the script evaluates the similarity between the generated text and the target text. A threshold is set, and if the similarity exceeds this threshold, the text is classified as machine-generated.
 
 4. **Decision.py**: This script combines the results from the TRPP method and other techniques to make a final determination.
